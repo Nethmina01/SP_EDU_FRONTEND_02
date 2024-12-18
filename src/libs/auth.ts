@@ -1,11 +1,19 @@
 // Third-party Imports
 import CredentialProvider from 'next-auth/providers/credentials'
+// eslint-disable-next-line @typescript-eslint/consistent-type-imports
+import { DefaultSession } from 'next-auth'
 
 // ** Types
 import type { NextAuthOptions } from 'next-auth'
 
 // ** Utils
 import axios from '@/utils/axios'
+
+declare module 'next-auth' {
+  interface Session extends DefaultSession {
+    token?: any
+  }
+}
 
 export const authOptions: NextAuthOptions = {
   // ** Configure one or more authentication providers
