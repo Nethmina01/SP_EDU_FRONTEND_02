@@ -1,0 +1,179 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 20px;
+}
+
+.greeting {
+  font-size: 1.5em;
+  color: #f39c12;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+}
+
+.notificationIcon {
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.userName {
+  background: #0e0d0d;
+  border-radius: 12px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.leftColumn,
+.rightColumn {
+  flex: 1;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-right: 10px;
+}
+
+.leftColumn .card,
+.rightColumn .card {
+  background: #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 20px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 10px;
+}
+
+.pendingLeaves {
+  text-align: center;
+  background: #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.pendingLeaves .cardHeader {
+  font-size: 1.2em;
+}
+
+.pendingCount {
+  font-size: 2em;
+  color: #e74c3c;
+}
+
+.specialNotices .noticeList {
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-top: 10px;
+}
+
+.notice {
+  background: #000000;
+  padding: 10px;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.seeAll {
+  color: red;
+  text-decoration: none;
+}
+
+.calendar {
+  background: #040404;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 20px;
+}
+
+.calendarHeader {
+  font-weight: bold;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 10px;
+}
+
+.calendarBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  width: 100%;
+}
+
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  width: 100%;
+}
+
+.upcomingMeetings {
+  background: #21211f;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 20px;
+}
+
+.meetingList {
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-top: 10px;
+}
+
+.meeting {
+  display: flex;
+  align-items: center;
+  background: #000000;
+  border-radius: 8px;
+  padding: 10px;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 10px;
+}
+
+.meetingDate {
+  background: #3498db;
+  color: #695454;
+  border-radius: 50%;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  width: 40px;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-right: 10px;
+}
+
+.meetingDetails {
+  font-size: 0.9em;
+}
