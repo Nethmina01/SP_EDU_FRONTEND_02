@@ -1,0 +1,149 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 20px;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #2c2929;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin: 0 10px;
+}
+
+.card h2 {
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-top: 0;
+}
+
+.attendanceDate {
+  font-size: 1.2em;
+  font-weight: bold;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 10px;
+}
+
+.timeInput {
+  display: flex;
+  justify-content: space-between;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 10px;
+}
+
+.timeInput label {
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-right: 10px;
+}
+
+.timeInput input {
+  flex: 1;
+  padding: 5px;
+}
+
+.markButton {
+  background-color: #00bfa5;
+  color: rgb(5, 5, 5);
+  border: none;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.notifyLink {
+  color: #00bfa5;
+  text-decoration: underline;
+  cursor: pointer;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-top: 10px;
+}
+
+.reportToggle {
+  display: flex;
+  justify-content: space-around;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 10px;
+}
+
+.chart {
+  background: #e7dfdf;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar {
+  background: #e7dfdf;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  height: 200px;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 10px;
+}
+
+.applyLeaveButton {
+  background-color: #00bfa5;
+  color: white;
+  border: none;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 10px;
+}
+
+.leaveCount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leaveTaken {
+  color: red;
+}
+
+.leaveTotal {
+  color: grey;
+}
+
+.attendanceList {
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-top: 20px;
+}
+
+.table {
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  width: 100%;
+  border-collapse: collapse;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  /* stylelint-disable-next-line liberty/use-logical-spec */
+  text-align: left;
+}
+
+.table th {
+  background-color: #0a0a0a;
+}
