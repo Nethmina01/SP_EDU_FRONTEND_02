@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-import Calendar from 'react-calendar'
+import ReactCalendar from 'react-calendar'
 
 import 'react-calendar/dist/Calendar.css'
 import styles from './Meetings.module.css'
@@ -50,7 +50,7 @@ export default function MeetingsPage() {
         </form>
       </div>
       <div className={styles.calendar}>
-        <Calendar onChange={value => handleDateChange(value as Date | Date[])} value={date} />
+        <ReactCalendar onChange={value => handleDateChange(value as Date | Date[])} value={date} />
       </div>
     </div>
   )
