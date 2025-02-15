@@ -1,0 +1,34 @@
+.container {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .newsList {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newsItem {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .newsTitle {
+    margin: 0 0 10px;
+  }
+  
+  .newsContent {
+    margin: 5px 0;
+  }
+  
+  .newsDate {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
