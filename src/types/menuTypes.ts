@@ -23,6 +23,7 @@ import type {
 //   suffix?: ReactNode | ChipProps
 // }
 export type VerticalMenuItemDataType = {
+  href: any
   label: ReactNode
   icon?: string
   prefix?: ReactNode | ChipProps
